@@ -1,0 +1,57 @@
+@use "abstract/mixins" as *;
+@use "base/typography" as *;
+@use "base/colors" as c;
+
+.header {
+  color: var(--txt);
+  &__container {
+    display: flex;
+    align-items: flex-end;
+    transition: background-color 0.7s ease-in-out;
+    transition: color 0.7s ease-in-out;
+    @include container($width: calc(375px - 2em));
+    margin: 2em auto;
+    @include mq($width: $largescreen) {
+      @include container($width: 1440px * 0.4);
+      margin: 4em auto 1em;
+    }
+  }
+  &__title {
+    font-size: 32px;
+    margin-right: 120px;
+    @include mq($width: $largescreen) {
+      font-size: 40px;
+      margin-right: 339px;
+    }
+  }
+  &__switchContainer {
+    display: flex;
+    align-items: flex-end;
+  }
+  &__text {
+    text-transform: uppercase;
+    margin-right: 21px;
+  }
+  &__text,
+  &__label {
+    font-size: 16px;
+    font-weight: $fw-semiBold;
+  }
+  &__themeLabel {
+    padding: 0 10px;
+  }
+  &__themeLabel > * + * {
+    margin-left: 12px;
+  }
+  &__themeToggle {
+    display: flex;
+    border-radius: 20px;
+    background-color: var(--toggle-bg);
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+  }
+  &__themeToggle > * + * {
+    margin-left: 5px;
+  }
+}

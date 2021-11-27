@@ -1,0 +1,70 @@
+body.dark {
+  /* theme 1 */
+
+  /* backgrounds */
+
+  --main-bg: hsl(222, 26%, 31%);
+  --toggle-bg: hsl(223, 31%, 20%);
+  --screen-bg: hsl(224, 36%, 15%);
+
+  /* keys & toggle */
+  --key-bg: hsl(30, 25%, 89%);
+  --key-shdw: hsl(28, 16%, 65%);
+  --key-bg-accent: hsl(225, 21%, 49%);
+  --key-shdw-accent: hsl(224, 28%, 35%);
+  --key-bg-toggle: hsl(6, 63%, 50%);
+  --key-shdw-toggle: hsl(6, 70%, 34%);
+
+  /* text */
+  --key-txt: hsl(221, 14%, 31%);
+  --key-txt-accent: hsl(0, 0%, 100%);
+  --key-txt-secondary: hsl(0, 0%, 100%);
+  --txt: hsl(0, 0%, 100%);
+}
+
+body.light {
+  /* theme 2 */
+
+  /* backgrounds */
+
+  --main-bg: hsl(0, 0%, 90%);
+  --toggle-bg: hsl(0, 5%, 81%);
+  --screen-bg: hsl(0, 0%, 93%);
+
+  /* keys & toggle */
+  --key-bg: hsl(45, 7%, 89%);
+  --key-shdw: hsl(35, 11%, 61%);
+  --key-bg-accent: hsl(185, 42%, 37%);
+  --key-shdw-accent: hsl(185, 58%, 25%);
+  --key-bg-toggle: hsl(25, 98%, 40%);
+  --key-shdw-toggle: hsl(25, 99%, 27%);
+
+  /* text */
+  --key-txt: hsl(60, 10%, 19%);
+  --key-txt-accent: hsl(0, 0%, 100%);
+  --key-txt-accent: hsl(0, 0%, 100%);
+  --txt: hsl(60, 10%, 19%);
+}
+
+body.neon {
+  /* theme 3 */
+
+  /* backgrounds */
+  --main-bg: hsl(268, 75%, 9%);
+  --toggle-bg: hsl(268, 71%, 12%);
+  --screen-bg: hsl(268, 71%, 12%);
+
+  /* keys & toggle */
+  --key-bg: hsl(268, 47%, 21%);
+  --key-shdw: hsl(290, 70%, 36%);
+  --key-bg-accent: hsl(281, 89%, 26%);
+  --key-shdw-accent: hsl(290, 70%, 36%);
+  --key-bg-toggle: hsl(176, 100%, 44%);
+  --key-shdw-toggle: hsl(176, 100%, 44%);
+
+  /* text */
+  --key-txt-secondary: hsl(0, 0%, 100%);
+  --key-txt-accent: hsl(198, 20%, 13%);
+  --key-txt: hsl(52, 100%, 62%);
+  --txt: hsl(52, 100%, 62%);
+}
