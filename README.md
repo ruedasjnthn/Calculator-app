@@ -7,7 +7,7 @@ A standard calculator app with a theme-toggle feature including dark, light and 
 
 ### Live Site
 
-- Live Site URL: https://ruedasjnthn.github.io/Calculator-app/
+- Live Site URL: https://ruedasjnthn.github.io/calculator
 
 ### Techstack Used
 
@@ -16,4 +16,4 @@ A standard calculator app with a theme-toggle feature including dark, light and 
 
 ## Author
 
-- Website - [Under Development]()
+- Website - https://ruedasjnthn.github.io/portfolio
